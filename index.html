@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "styles.css">
+    <title>Receitas</title>
+</head>
+<body>
+<header>
+    <h1>Dicas de Receitas</h1>
+</header>
+    
+<main>
+    <section>
+        <label for="campo-pesquisa-texto">Digite o alimento ou receita que você procura:</label>
+        <input type="text" placeholder="Digite o nome da receita ou do alimento" id ="campo-pesquisa-texto">
+        <label for="inputs-numero">Pesquise pela quantidade de calorias:</label>
+        <div class="inputs-numero">           
+            <input type="number" placeholder="Mín." id="campo-pesquisa-kcal-min" class="input-kcal">
+            <input type="number" placeholder="Máx." id="campo-pesquisa-kcal-max" class="input-kcal">
+        </div>
+        <button onclick="pesquisar()">Pesquisar</button>
+    </section>
+    <section class="resultados-pesquisa" id="resultados-pesquisa">
+        <div id="preparo"></div>
+    </section>
+
+</main>
+<footer>
+    <p>2024 - Dicas de Receitas. Todos os direitos reservados.</p>
+    <p>Entre em contato pelo email: alice@dicasdereceitas.com</p>
+</footer>
+    
+<script src="dados.js"></script>
+<script src="app.js"></script>   
+</body>
+</html>
