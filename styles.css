@@ -207,35 +207,3 @@ label {
     margin: 0.5em;
     padding: 0.7rem 0.7rem;
 }
-
-.container {
-    max-width: 1200px; /* Largura máxima do container */
-    margin: 0 auto;
-}
-
-.section {
-flex-grow: 1; /* Faz com que as seções ocupem o espaço disponível */
-}
-
-img {
-width: 100%;
-height: auto;
-object-fit: cover;
-}
-
-/* ... (outros estilos) */
-
-@media (max-width: 768px) {
-/* ... (seus estilos para telas menores) */
-body {
-    font-size: 18px;
-}
-
-.container {
-    padding: 1rem;
-}
-
-.section {
-    padding: 2rem;
-}
-}
